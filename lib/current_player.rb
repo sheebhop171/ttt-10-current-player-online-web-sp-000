@@ -6,7 +6,7 @@ def current_player(index)
   counter = 0
   if counter % 2 == 0
    return index = "X"
- elsif counter % 2 == 1
+ elsif counter % 2 != 0
    return index = "O"
  else
  end
