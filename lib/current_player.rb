@@ -9,6 +9,7 @@ def current_player(index)
  elsif counter % 2 == 1
    return index = "O"
  else
+ end
 end
 
 #if counter
