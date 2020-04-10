@@ -5,9 +5,9 @@ end
 def current_player(board)
   counter = 0
   if counter % 2 == 0
-   return index = "X"
+   return board = "X"
  elsif counter % 2 != 0
-   return index = "O"
+   return board = "O"
  else
  end
 end
