@@ -5,12 +5,8 @@ end
 
 def current_player(board)
   counter = 0
-  if counter % 2 == 0
-   return board = "X"
- elsif counter % 1 == 1
-   return board = "O"
- else
- end
+  if turn_count(board).even
+    "X"
 end
 
 #if counter
